@@ -11,6 +11,7 @@ This repository separates what hardware **reported**, what a register **accepted
 | Section | Purpose |
 | --- | --- |
 | [Eight-layer architecture](architecture/LAYERS.md) | Where physical devices, fuses, initialization, privilege, registers, topology, execution, and tooling fit together |
+| [GA100 firmware engines](architecture/GA100-ENGINES.md) | SEC2/Falcon, GSP/RISC-V, controller BAR0 candidates and verification status |
 | [Blitzcore / GA102 case study](devices/GA102-BLITZCORE.md) | Hardware baseline, cold-trial sequence, observation-versus-inference |
 | [Register and permission map](registers/REGISTER-MAP.md) | Addresses, access windows, measured changes, unresolved identities |
 | [Evidence ledger](evidence/LEDGER.md) | Stable claim IDs, confidence/provenance and competing explanations |
